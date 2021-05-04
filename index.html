@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="full-wrapper">
+        <div class="box box-1">
+            <h3>balloons</h3>
+            <div class="balloon">
+                <img src="images/file_526114.webp" alt="balloon">
+                <img src="images/file_526114.webp" alt="balloon">
+                <img src="images/file_526114.webp" alt="balloon">
+                <img src="images/file_526114.webp" alt="balloon">
+                <img src="images/file_526114.webp" alt="balloon">
+            </div>
+            <h4>Total balloons = <strong id="balloons"></strong></h4>
+            <button class="button1" onclick="box_1();">count balloons</button>
+            </div>
+            <div class="box box-2">
+                <p>answer the question</p>
+                <p>350+50</p>
+                  <p>answer = ‍<span id="result_2"></span></p>
+                  <button class="button3" onclick="box_2();">answer</button>
+            </div>
+        <div class="box box-3">
+            <p>answer the question</p>
+            <p>350×50</p>
+              <p>answer = ‍<span id="result_3"></span></p>
+              <button class="button3" onclick="box_3();">answer</button>
+        </div>
+        <div class="box box-4">
+            <p>answer the question</p>
+            <p>200÷10</p>
+            <p>answer = ‍<span id="result_4"></span></p>
+            <button class="button2" onclick="box_4();">answer</button>
+        </div>
+    </div>
+    <script>
+        // box-1
+        function box_1() {
+          var x = 3;
+          var y = 2;
+          var result = x + y;
+          document.getElementById("balloons").innerHTML = result;
+        }
+        // box-2
+        function box_2() {
+          var x = 350;
+          var y = 50;
+          var z = "answer";
+          var result = x + y + " " + z;
+          document.getElementById("result_2").innerHTML = result;
+        }
+        // box-3
+        function box_3() {
+          var x = 350;
+          var y = 50;
+          var z = "answer";
+          var result = x * y + " " + z;
+          document.getElementById("result_3").innerHTML = result;
+        }
+         // box-4
+        function box_4() {
+            var x = 200;
+          var y = 10;
+          var z = "answer";
+          var result = x / y + " " + z;
+        document.getElementById("result_4").innerHTML = result;
+      }
+      
+      </script>
+    
+</body>
+</html>

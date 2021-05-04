@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+
+body {
+    height: 100vh;
+    background: #ca915b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .full-wrapper{
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .full-wrapper .box {
+    width: 277.5px;
+    height: 200px;
+    padding: 20px;
+    background: #fff;
+    margin-right: 20px;
+  }
+  
+  .box h3{
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: underline;
+      color: chocolate;
+      font-style: italic;
+      font-weight: 400;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .balloon{
+      margin-top: 15px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+  }
+  .balloon img{
+      width: 30px;
+
+  }
+ 
+
+button {
+    margin-left: 81px;
+    border-radius: 5px;
+    border: 1px solid #ca915b;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+  }
+  
+  .button1 {
+    margin-top: 30px;
+  }
+  
+  .button2 {
+    margin-top: 15px;
+  }
+  
+  .button3 {
+    margin-top:15px;
+  }
+  
+  .button4 {
+    margin-top: 58px;
+  }
+  
+  button:hover {
+    border: 1px solid #ca915b;
+    background: #ca915b;
+    color: #fff;
+  }
